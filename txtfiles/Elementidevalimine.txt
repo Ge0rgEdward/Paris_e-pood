@@ -1,0 +1,14 @@
+document.getElementById(id)-  tagastab ühe elemendi, mis vastab ID-le.
+document.getElementsByClassName(className) – tagastab HTMLCollection kõikidest klassiga elementidest.
+document.getElementsByTagName(tagName) – tagastab kõik vastava sildiga elemendid.
+document.querySelector(selector) – tagastab esimese elemendi, mis vastab CSS valikule.
+document.querySelectorAll(selector) – tagastab NodeList kõigist elementidest, mis vastavad CSS valikule.
+
+
+DOM Hierarhia
+parentNode – viitab elemendi vanemale.
+childNodes – tagastab NodeList kõikidest lapse elementidest (sh tühikud ja tekst).
+
+firstChild / lastChild – viitab esimesele või viimasele lapsele.
+nextSibling / previousSibling – viitab järgmisele või eelnevale sõlmele samal tasemel.
+firstElementChild / lastElementChild – viitab esimesele või viimasele elemendi-tüüpi lapsele (ilma tekstita).
